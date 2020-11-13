@@ -24,7 +24,7 @@ if (isset($_POST['confirm'])) {
     $condition = $_POST['condition'];
     if (empty($condition)){
         echo '<script type="text/javascript">';
-        echo 'alert("Vous devez accepter les conditions !")'; 
+        echo 'alert("Vous devez accepter les conditions ! ")'; 
         echo '</script>';
     }
     else{ 
