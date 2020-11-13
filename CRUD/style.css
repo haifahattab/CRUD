@@ -1,0 +1,98 @@
+body {
+    background: no-repeat url('images/fond.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.form {
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    background-color: rgb(58, 54, 54, 0.6);
+    font-size: 15px;
+}
+
+.formdialo {
+    background-color: rgb(58, 54, 54, 0.5);
+    color: white;
+}
+
+.input {
+    background-color: rgba(44, 41, 41, 0.7);
+    border-color: rgba(36, 34, 34, 0.7);
+}
+
+h1 {
+    color: rgb(86, 167, 243);
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(86, 167, 243);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
+.button:hover {
+    color: rgb(86, 167, 243);
+    background-color: white;
+}
+
+.tablec {
+    background-color: rgb(58, 54, 54, 0.7);
+}
+
+.tablec td {
+    color: black;
+}
+
+input:required {
+    background: url(asterix.png) 98% center no-repeat;
+}
+
+input:focus:invalid {
+    border-color: red;
+    background-image: none;
+}
+
+.erreur {
+    border-color: red;
+}
+
+.logo {
+    width: 120px;
+    height: 70px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+header p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    form {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .table1 {
+        margin: auto;
+        width: 70%;
+    }
+    .link {
+        margin-right: 100px;
+        color: violet;
+        font-size: 25px;
+    }
+}
